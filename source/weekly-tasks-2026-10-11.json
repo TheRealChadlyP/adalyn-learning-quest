@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a-2e693bfcfab32ba3",
+    "subject": "Math",
+    "note": "Worksheet A",
+    "title": "Async Wednesday Assignment - Simplifying Fractions",
+    "link": "https://vpa.instructure.com/courses/589846/assignments/29995847?module_item_id=81279107",
+    "kind": "kami assignment",
+    "extra": "",
+    "legacyId": "r2",
+    "art": "r2",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-ed8ca54f93bd1419",
+    "subject": "PE",
+    "note": "Instruction Sheet A",
+    "title": "Sit-Ups & Mile Run",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSczOPDQXZZ7IBWLwAEe9tN69_Z3qPv7I0oqU4lxYUcJL7sqkw/viewform",
+    "kind": "Ftnessgram",
+    "extra": "",
+    "legacyId": "r4",
+    "art": "r4",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-0d2e841f911c9f1d",
+    "subject": "Science",
+    "note": "Online Assignment",
+    "title": "Living Things Grow and Change",
+    "link": "https://vpa.instructure.com/courses/589246/assignments/25832115?module_item_id=67748913",
+    "kind": "Assignment Link",
+    "extra": "",
+    "legacyId": "r6",
+    "art": "r6",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-d8d8d464df071bd9",
+    "subject": "Science",
+    "note": "Online Assignment",
+    "title": "Living Things Use Energy",
+    "link": "https://vpa.instructure.com/courses/589246/assignments/25832149?module_item_id=67749045",
+    "kind": "Assignment Link",
+    "extra": "",
+    "legacyId": "r7",
+    "art": "r7",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-1dd0774a326e8638",
+    "subject": "Science",
+    "note": "Worksheet B",
+    "title": "Friday 10/2 🌟 Activity Page: Organisms and Chemical Energy",
+    "link": "https://vpa.instructure.com/courses/589246/assignments/25832879?module_item_id=67749009",
+    "kind": "kami assignment",
+    "extra": "",
+    "legacyId": "r8",
+    "art": "r8",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-34c2f2771598dc32",
+    "subject": "Science",
+    "note": "Discussion Board Post",
+    "title": "Science Journal- Week 8",
+    "link": "https://vpa.instructure.com/courses/589246/discussion_topics/2646354?module_item_id=80666067",
+    "kind": "discussion board",
+    "extra": "",
+    "legacyId": "r9",
+    "art": "r9",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-7fbf038ceb5d887f",
+    "subject": "Science",
+    "note": "Worksheet C",
+    "title": "Activity Page: A Rough Draft of Your Model",
+    "link": "https://vpa.instructure.com/courses/589246/assignments/25832357?module_item_id=67749341",
+    "kind": "kami assignment",
+    "extra": "Final project due 10/22, presenting to class 10/23.",
+    "legacyId": "r10",
+    "art": "r10",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-3f378a6b81f02c69",
+    "subject": "Science",
+    "note": "Worksheet D",
+    "title": "Activity Page: Library Scavenger Hunt",
+    "link": "https://vpa.instructure.com/courses/589246/assignments/25832659?module_item_id=67748931",
+    "kind": "kami assignment",
+    "extra": "",
+    "legacyId": "r11",
+    "art": "r11",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-935d25d381650ee8",
+    "subject": "Science",
+    "note": "Online Assignment",
+    "title": "Growing Plants Without Soil",
+    "link": "https://vpa.instructure.com/courses/589246/assignments/25831915?module_item_id=67749209",
+    "kind": "Assignment Link",
+    "extra": "",
+    "legacyId": "r12",
+    "art": "r12",
+    "defaultDay": "unplanned"
+  },
+  {
+    "id": "a-0de9f4d01191ec97",
+    "subject": "Science",
+    "note": "Canva, Google Slides, or another digital tool approved by your teacher",
+    "title": "Digital Food Chain Model",
+    "link": "https://vpa.instructure.com/courses/589246/assignments/25832837?module_item_id=67749153",
+    "kind": "Assignment Link",
+    "extra": "",
+    "legacyId": "r13",
+    "art": "r13",
+    "defaultDay": "unplanned"
+  }
+]
