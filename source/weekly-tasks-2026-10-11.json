@@ -12,6 +12,18 @@
     "legacyId": "r2"
   },
   {
+    "id": "a-e20a1e06699c9d8a",
+    "subject": "Math",
+    "note": "IXL Online Activity",
+    "title": "IXL: Adding Fractions",
+    "link": "https://vpa.instructure.com/courses/589846/assignments/30041683?module_item_id=81419515",
+    "kind": "IXL Assignments",
+    "extra": "",
+    "defaultDay": "unplanned",
+    "art": "adding-fractions",
+    "legacyId": ""
+  },
+  {
     "id": "a-ed8ca54f93bd1419",
     "subject": "PE",
     "note": "Instruction Sheet A",
