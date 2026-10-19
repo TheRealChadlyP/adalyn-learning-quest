@@ -156,5 +156,90 @@
     "noteBold": false,
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589352/quizzes/5781399"
+  },
+  {
+    "id": "a-8fcbb01458da3e47",
+    "subject": "Music",
+    "title": "Monday, October 19th Music Async Assignment: Tempo",
+    "link": "https://vpa.instructure.com/courses/589078/assignments/30050325?module_item_id=81448671",
+    "defaultDay": "1",
+    "kind": "Async assignment · 10 points",
+    "note": "Submit your answer in the assignment’s text entry box.",
+    "extra": "Due Monday, Oct 19 at 11:59 PM. Available Oct 19 at 12:00 AM through Nov 2 at 11:59 PM.",
+    "art": "music-tempo",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589078/assignments/30050325"
+  },
+  {
+    "id": "a-4936df425cfee973",
+    "subject": "Music",
+    "title": "Directions for the weekly work (Live) 3-5",
+    "link": null,
+    "defaultDay": "1",
+    "kind": "Weekly directions · Read and check off",
+    "note": "If you came to the live class session, be sure to take this week’s quiz to receive credit.",
+    "extra": "Check this card after you have read these directions. No link or submission is needed for this directions card.",
+    "art": "music-directions",
+    "legacyId": "",
+    "identitySource": "music:weekly-directions-live-3-5:2026-10-18",
+    "noteBold": true,
+    "noLinkLabel": "Instructions are on this card",
+    "instructionSteps": [
+      "Watch the video lesson. The link is posted in the directions of the week’s participation quiz.",
+      "Take the quiz.",
+      "This week’s slideshow is included in the module if you want to revisit any activities. You do not need to do anything with the slideshow."
+    ]
+  },
+  {
+    "id": "a-f8f1390545b83791",
+    "subject": "Music",
+    "title": "🎥 Video Recordings of the Lessons (4-5)",
+    "link": "https://vpa.instructure.com/courses/589078/pages/video-recordings-of-the-lessons-4-5?module_item_id=81448677",
+    "defaultDay": "2",
+    "kind": "Video lesson",
+    "note": "Watch the video lesson. The weekly directions also point to the video through the participation quiz.",
+    "extra": "Locked until Tuesday, Oct 20 at 12:00 AM. No due date was provided.",
+    "art": "music-video",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589078/pages/video-recordings-of-the-lessons-4-5"
+  },
+  {
+    "id": "a-82b20554d6eaecef",
+    "subject": "Music",
+    "title": "Lesson Slides Week of October 19-23",
+    "link": "https://vpa.instructure.com/courses/589078/pages/lesson-slides-week-of-october-19-23?module_item_id=81448679",
+    "defaultDay": "2",
+    "kind": "Lesson slides · Reference",
+    "note": "You can revisit the slideshow if you want to. You do not need to do anything with it or submit work for it.",
+    "extra": "Locked until Tuesday, Oct 20 at 12:00 AM. No due date was provided.",
+    "art": "music-slides",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589078/pages/lesson-slides-week-of-october-19-23"
+  },
+  {
+    "id": "a-8a1fbd5b45bc4f01",
+    "subject": "Music",
+    "title": "Nearpod Draw it! and the Kahoot Game!",
+    "link": "https://vpa.instructure.com/courses/589078/pages/nearpod-draw-it-and-the-kahoot-game?module_item_id=81458379",
+    "defaultDay": "2",
+    "kind": "Drawing and game activities",
+    "note": "Open the page for the Nearpod Draw it! and Kahoot activities.",
+    "extra": "Locked until Tuesday, Oct 20 at 12:00 AM. No due date was provided.",
+    "art": "music-game",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589078/pages/nearpod-draw-it-and-the-kahoot-game"
+  },
+  {
+    "id": "a-c187d1a88be45ca1",
+    "subject": "Music",
+    "title": "Quiz: Week of October 19-23",
+    "link": "https://vpa.instructure.com/courses/589078/quizzes/6715085?module_item_id=81448681",
+    "defaultDay": "2",
+    "kind": "Participation quiz · 10 points",
+    "note": "2 questions • No time limit. Take this week’s quiz to receive credit, even if you attended the live class.",
+    "extra": "Due Tuesday, Oct 20 at 11:59 PM. Available Oct 20 at 12:00 AM through Nov 3 at 11:59 PM. Locked until Oct 20 at 12:00 AM.",
+    "art": "music-quiz",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589078/quizzes/6715085"
   }
 ]
