@@ -241,5 +241,32 @@
     "art": "music-quiz",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589078/quizzes/6715085"
+  },
+  {
+    "id": "music-announcement-2026-10-20-no-live",
+    "subject": "Music",
+    "title": "Read Mrs. Beard’s Announcement: No LIVE Music on Tuesday",
+    "link": null,
+    "defaultDay": "1",
+    "kind": "Teacher announcement · Read and check off",
+    "note": "No LIVE music class Tuesday, October 20. Watch the lesson video and complete the quiz to receive credit.",
+    "noteBold": true,
+    "extra": "Read on Monday, October 19, then check this card to show you read the message.",
+    "noLinkLabel": "Announcement is on this card",
+    "art": "teacher-out-async",
+    "legacyId": "",
+    "identitySource": "music:megan-beard:no-live:2026-10-20",
+    "announcement": {
+      "author": "Megan Beard · Music Gr 5 A-A1FCA51",
+      "posted": "October 16, 2026 at 4:26 PM",
+      "paragraphs": [
+        "Hi everyone,",
+        "I wanted to give you a heads-up that I will be out Tuesday morning to attend my son's field trip. Because of this, we will not have LIVE music class on Tuesday, October 20th.",
+        "Instead, I will post the lesson video and quiz for you to complete next week at your convenience. Please watch the video and complete the quiz to receive credit for the lesson.",
+        "Thank you for understanding, and have a great weekend!",
+        "Kind regards,",
+        "Mrs. Beard"
+      ]
+    }
   }
 ]
