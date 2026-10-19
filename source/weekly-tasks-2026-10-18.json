@@ -268,5 +268,18 @@
         "Mrs. Beard"
       ]
     }
+  },
+  {
+    "id": "math-ixl-simplifying-fractions",
+    "subject": "Math",
+    "title": "IXL: Simplifying Fractions",
+    "link": "https://www.ixl.com/math/grade-5/write-fractions-in-lowest-terms?lmsPlatform=1",
+    "defaultDay": "1",
+    "kind": "IXL activity · 20 points",
+    "note": "Submission: external tool. Allowed attempts: 2. Attempts listed when assigned: 0.",
+    "extra": "Due Monday, Oct 19 at 11:59 PM. Available Oct 19 at 12:00 AM through Nov 2 at 11:59 PM.",
+    "art": "ixl-simplifying",
+    "legacyId": "",
+    "identitySource": "https://www.ixl.com/math/grade-5/write-fractions-in-lowest-terms"
   }
 ]
