@@ -17,3 +17,5 @@
 .multiplication-table button:hover{box-shadow:inset 0 0 0 2px #9475b5}
 .multiplication-table button:focus-visible{outline-offset:-3px;position:relative;z-index:1}
 .multiplication-status{min-height:24px;font-size:14px;color:#674095}
+
+.calc-history{max-height:210px;overflow-y:auto;background:#faf7fe;border:1px solid #dfd2ec;border-radius:10px;padding:10px 14px;margin:10px 0;overflow-wrap:anywhere}.calc-history ol{margin:0;padding-left:23px}.calc-history li{padding:7px 0;border-bottom:1px solid #e5dcec;font-variant-numeric:tabular-nums}.calc-history-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:20px}.calc-history-heading h4{margin:0}.calc-history-heading button{font-size:13px}

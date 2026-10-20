@@ -21,10 +21,42 @@ root.open=prefs.open;root.addEventListener('toggle',()=>{prefs.open=root.open;sa
 function setMode(mode){prefs.mode=mode;root.querySelectorAll('[data-calculator-mode]').forEach(b=>{const selected=b.dataset.calculatorMode===mode;b.setAttribute('aria-pressed',String(selected));b.classList.toggle('selected',selected)});document.querySelector('#gcfPanel').hidden=mode!=='gcf';document.querySelector('#standardPanel').hidden=mode!=='standard';document.querySelector('#multiplicationPanel').hidden=mode!=='multiplication';savePrefs()}
 root.querySelectorAll('[data-calculator-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.calculatorMode)));setMode(prefs.mode);
 const aInput=document.querySelector('#factorA'),bInput=document.querySelector('#factorB'),result=document.querySelector('#factorResult');
-function renderFactors(){const a=Number(aInput.value),b=Number(bInput.value);if(!aInput.value.trim()||!bInput.value.trim()){result.textContent='Enter two numbers to see their factors.';return}try{const greatest=gcf(a,b);const rows=[a,b].map(n=>`<div class="factor-row"><div class="factor-label">Factors of <strong>${n}</strong></div><div class="factor-squares">${factors(n).map(f=>`<span class="factor-square ${f===greatest?'gcf-square':''}" aria-label="${f}${f===greatest?', greatest common factor':''}">${f}${f===greatest?'<small>GCF</small>':''}</span>`).join('')}</div></div>`).join('');result.innerHTML=`<div class="gcf-answer">The GCF of ${a} and ${b} is <strong>${greatest}</strong> ⭐</div>${rows}<p class="calc-help">Factors divide a number evenly, with nothing left over. The yellow square in each row is the biggest factor both numbers share.</p>`;}catch(e){result.textContent=e.message}}
+const factorKey='adalyn-learning-quest-factors-v1';
+aInput.value='';bInput.value='';
+try{const saved=JSON.parse(localStorage.getItem(factorKey)||'{}');if(typeof saved.a==='string')aInput.value=saved.a;if(typeof saved.b==='string')bInput.value=saved.b}catch(e){}
+function renderFactors(){try{localStorage.setItem(factorKey,JSON.stringify({a:aInput.value,b:bInput.value}))}catch(e){}const a=Number(aInput.value),b=Number(bInput.value);if(!aInput.value.trim()||!bInput.value.trim()){result.textContent='Enter two numbers to see their factors.';return}try{const greatest=gcf(a,b);const rows=[a,b].map(n=>`<div class="factor-row"><div class="factor-label">Factors of <strong>${n}</strong></div><div class="factor-squares">${factors(n).map(f=>`<span class="factor-square ${f===greatest?'gcf-square':''}" aria-label="${f}${f===greatest?', greatest common factor':''}">${f}${f===greatest?'<small>GCF</small>':''}</span>`).join('')}</div></div>`).join('');result.innerHTML=`<div class="gcf-answer">The GCF of ${a} and ${b} is <strong>${greatest}</strong> ⭐</div>${rows}<p class="calc-help">Factors divide a number evenly, with nothing left over. The yellow square in each row is the biggest factor both numbers share.</p>`;}catch(e){result.textContent=e.message}}
 document.querySelector('#gcfForm').addEventListener('submit',e=>{e.preventDefault();renderFactors()});aInput.addEventListener('input',renderFactors);bInput.addEventListener('input',renderFactors);document.querySelector('#clearFactors').addEventListener('click',()=>{aInput.value='';bInput.value='';renderFactors();aInput.focus()});renderFactors();
-let calc=newCalc();const output=document.querySelector('#calcDisplay'),operation=document.querySelector('#calcOperation');
-function runKey(key){calc=press(calc,key);output.textContent=calc.entry;output.classList.toggle('calc-error',calc.error);operation.textContent=calc.op?`${calc.acc} ${calc.op}`:'';root.querySelectorAll('[data-calc-key]').forEach(b=>{const active=!!calc.op&&b.dataset.calcKey===calc.op;b.classList.toggle('pending-op',active)})}
+const standardKey='adalyn-learning-quest-standard-v1';
+let calc=newCalc(),history=[];
+const ops=['+','−','×','÷'];
+try{const saved=JSON.parse(localStorage.getItem(standardKey)||'{}'),s=saved.calc;
+ if(s&&typeof s.entry==='string'&&s.entry.length<=100&&(s.error===true||Number.isFinite(Number(s.entry)))&&(s.acc===null||Number.isFinite(s.acc))&&(s.op===null||ops.includes(s.op))&&(s.lastOp===null||ops.includes(s.lastOp))&&(s.lastB===null||Number.isFinite(s.lastB)))calc={...newCalc(),...s};
+ if(Array.isArray(saved.history))history=saved.history.filter(x=>typeof x==='string'&&x.length<=160);
+}catch(e){}
+const output=document.querySelector('#calcDisplay'),operation=document.querySelector('#calcOperation'),historyList=document.querySelector('#calcHistory');
+function saveStandard(){try{localStorage.setItem(standardKey,JSON.stringify({calc,history}))}catch(e){}}
+function renderStandard(){
+ output.textContent=calc.entry;output.classList.toggle('calc-error',calc.error);operation.textContent=calc.op?`${calc.acc} ${calc.op}`:'';
+ root.querySelectorAll('[data-calc-key]').forEach(b=>{b.classList.toggle('pending-op',!!calc.op&&b.dataset.calcKey===calc.op)});
+ historyList.replaceChildren();
+ if(!history.length){const empty=document.createElement('p');empty.className='calc-help';empty.textContent='Your calculations will appear here.';historyList.appendChild(empty)}
+ else{const list=document.createElement('ol');for(const line of history){const item=document.createElement('li');item.textContent=line;list.appendChild(item)}historyList.appendChild(list)}
+ historyList.scrollTop=historyList.scrollHeight;
+}
+function runKey(key){
+ const before={...calc};
+ calc=press(calc,key);
+ let left,op,right;
+ if(!before.error){
+  if(key==='='&&before.op){left=before.acc;op=before.op;right=Number(before.entry)}
+  else if(key==='='&&before.lastOp){left=Number(before.entry);op=before.lastOp;right=before.lastB}
+  else if(ops.includes(key)&&before.op&&!before.fresh){left=before.acc;op=before.op;right=Number(before.entry)}
+ }
+ if(op)history.push(`${left} ${op} ${right} = ${calc.entry}`);
+ saveStandard();renderStandard();
+}
+document.querySelector('#clearCalcHistory').addEventListener('click',()=>{history=[];saveStandard();renderStandard()});
+renderStandard();
 document.querySelector('#calcKeypad').addEventListener('click',e=>{const button=e.target.closest('[data-calc-key]');if(button)runKey(button.dataset.calcKey)});
 document.querySelector('#standardPanel').addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey)return;if(e.key==='Enter'&&e.target.tagName==='BUTTON')return;const map={'*':'×','/':'÷','-':'−','Enter':'=','Backspace':'⌫','Escape':'AC'};const key=map[e.key]||e.key;if(/^\d$/.test(key)||['.','+','−','×','÷','=','AC','⌫'].includes(key)){e.preventDefault();runKey(key)}});
 
