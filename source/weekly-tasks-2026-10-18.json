@@ -336,5 +336,34 @@
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589156/assignments/28027599",
     "id": "a-5640f2dd06ee278c"
+  },
+  {
+    "id": "math-canvas-30056319",
+    "subject": "Math",
+    "title": "Tuesday - Check for Understanding",
+    "link": "https://vpa.instructure.com/courses/589846/assignments/30056319?module_item_id=81466761",
+    "defaultDay": "2",
+    "kind": "Equivalent fractions · 3-problem practice",
+    "note": "Worksheet Printed — Find your printed EQUIVALENT FRACTIONS 3-Problem Practice worksheet.",
+    "noteBold": true,
+    "extra": "Planned for Tuesday, Oct 20. Use the Kami assignment link for the online assignment. No due date or points were provided.",
+    "art": "equivalent-fractions-worksheet",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589846/assignments/30056319",
+    "linkLabel": "Open Kami assignment"
+  },
+  {
+    "id": "math-canvas-30056357",
+    "subject": "Math",
+    "title": "Tuesday - IXL: Equivalent Fractions Practice",
+    "link": "https://vpa.instructure.com/courses/589846/assignments/30056357?module_item_id=81466831",
+    "defaultDay": "2",
+    "kind": "IXL practice · 20 points",
+    "note": "Equivalent fractions practice. Submission: external tool. Allowed attempts: 1. Attempts listed when assigned: 0.",
+    "extra": "Due Tuesday, Oct 20 at 11:59 PM. Available Oct 20 at 12:00 AM through Nov 3 at 11:59 PM.",
+    "art": "equivalent-fractions-ixl",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589846/assignments/30056357",
+    "linkLabel": "Open IXL assignment"
   }
 ]
