@@ -365,5 +365,38 @@
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589846/assignments/30056357",
     "linkLabel": "Open IXL assignment"
+  },
+  {
+    "id": "pe-red-light-green-light-2026-10-23",
+    "subject": "PE",
+    "title": "Red Light/Green Light Activity",
+    "link": "https://youtu.be/2svEVs-gRog?si=ooOybjZsk0Nb2fVO",
+    "defaultDay": "5",
+    "kind": "PE at Home · Follow-along activity",
+    "note": "Play Red Light, Green Light with the video from New York Rising Road Runners @OPENphysed.",
+    "extra": "Friday, Oct 23: Complete this activity before jogging for 2 minutes and completing the Running survey.",
+    "art": "pe-traffic-game",
+    "legacyId": "",
+    "identitySource": "youtube:2svEVs-gRog",
+    "linkLabel": "Play Red Light/Green Light"
+  },
+  {
+    "id": "pe-canvas-6715889",
+    "subject": "PE",
+    "title": "Running",
+    "link": "https://vpa.instructure.com/courses/589234/quizzes/6715889/take",
+    "defaultDay": "5",
+    "kind": "Running survey · 10 points",
+    "note": "2 questions • No time limit. Complete the activity and your 2-minute jog before the survey.",
+    "extra": "Planned for Friday, Oct 23. Due Monday, Oct 26 at 11:59 PM. Available until Nov 2 at 11:59 PM.",
+    "instructionSteps": [
+      "Participate in the Red Light Green Light video first.",
+      "Run in place or go and jog around for 2 minutes straight.",
+      "Complete the survey when done."
+    ],
+    "art": "pe-running-survey",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589234/quizzes/6715889",
+    "linkLabel": "Complete Running survey"
   }
 ]
