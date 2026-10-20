@@ -15,10 +15,10 @@ else if(key==='='){if(s.op){const b=Number(s.entry);s.entry=String(calculate(s.a
 const api={factors,gcf,calculate,newCalc,press};if(typeof module!=='undefined'&&module.exports)module.exports=api;
 if(typeof document==='undefined')return;
 const root=document.querySelector('#calculatorCorner');if(!root)return;
-const prefsKey='adalyn-learning-quest-calculators-v1';let prefs={open:false,mode:'gcf'};try{const p=JSON.parse(localStorage.getItem(prefsKey)||'{}');prefs={open:p.open===true,mode:p.mode==='standard'?'standard':'gcf'}}catch(e){}
+const prefsKey='adalyn-learning-quest-calculators-v1';let prefs={open:false,mode:'gcf'};try{const p=JSON.parse(localStorage.getItem(prefsKey)||'{}');prefs={open:p.open===true,mode:['standard','multiplication'].includes(p.mode)?p.mode:'gcf'}}catch(e){}
 function savePrefs(){try{localStorage.setItem(prefsKey,JSON.stringify(prefs))}catch(e){}}
 root.open=prefs.open;root.addEventListener('toggle',()=>{prefs.open=root.open;savePrefs()});
-function setMode(mode){prefs.mode=mode;root.querySelectorAll('[data-calculator-mode]').forEach(b=>{const selected=b.dataset.calculatorMode===mode;b.setAttribute('aria-pressed',String(selected));b.classList.toggle('selected',selected)});document.querySelector('#gcfPanel').hidden=mode!=='gcf';document.querySelector('#standardPanel').hidden=mode!=='standard';savePrefs()}
+function setMode(mode){prefs.mode=mode;root.querySelectorAll('[data-calculator-mode]').forEach(b=>{const selected=b.dataset.calculatorMode===mode;b.setAttribute('aria-pressed',String(selected));b.classList.toggle('selected',selected)});document.querySelector('#gcfPanel').hidden=mode!=='gcf';document.querySelector('#standardPanel').hidden=mode!=='standard';document.querySelector('#multiplicationPanel').hidden=mode!=='multiplication';savePrefs()}
 root.querySelectorAll('[data-calculator-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.calculatorMode)));setMode(prefs.mode);
 const aInput=document.querySelector('#factorA'),bInput=document.querySelector('#factorB'),result=document.querySelector('#factorResult');
 function renderFactors(){const a=Number(aInput.value),b=Number(bInput.value);if(!aInput.value.trim()||!bInput.value.trim()){result.textContent='Enter two numbers to see their factors.';return}try{const greatest=gcf(a,b);const rows=[a,b].map(n=>`<div class="factor-row"><div class="factor-label">Factors of <strong>${n}</strong></div><div class="factor-squares">${factors(n).map(f=>`<span class="factor-square ${f===greatest?'gcf-square':''}" aria-label="${f}${f===greatest?', greatest common factor':''}">${f}${f===greatest?'<small>GCF</small>':''}</span>`).join('')}</div></div>`).join('');result.innerHTML=`<div class="gcf-answer">The GCF of ${a} and ${b} is <strong>${greatest}</strong> ⭐</div>${rows}<p class="calc-help">Factors divide a number evenly, with nothing left over. The yellow square in each row is the biggest factor both numbers share.</p>`;}catch(e){result.textContent=e.message}}
@@ -27,4 +27,25 @@ let calc=newCalc();const output=document.querySelector('#calcDisplay'),operation
 function runKey(key){calc=press(calc,key);output.textContent=calc.entry;output.classList.toggle('calc-error',calc.error);operation.textContent=calc.op?`${calc.acc} ${calc.op}`:'';root.querySelectorAll('[data-calc-key]').forEach(b=>{const active=!!calc.op&&b.dataset.calcKey===calc.op;b.classList.toggle('pending-op',active)})}
 document.querySelector('#calcKeypad').addEventListener('click',e=>{const button=e.target.closest('[data-calc-key]');if(button)runKey(button.dataset.calcKey)});
 document.querySelector('#standardPanel').addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey)return;if(e.key==='Enter'&&e.target.tagName==='BUTTON')return;const map={'*':'×','/':'÷','-':'−','Enter':'=','Backspace':'⌫','Escape':'AC'};const key=map[e.key]||e.key;if(/^\d$/.test(key)||['.','+','−','×','÷','=','AC','⌫'].includes(key)){e.preventDefault();runKey(key)}});
+
+const chart=document.querySelector('#multiplicationChart'),chartStatus=document.querySelector('#multiplicationStatus');
+const chartKey='adalyn-learning-quest-multiplication-v1';
+const selections={rows:new Set(),columns:new Set(),cells:new Set()};
+try{const saved=JSON.parse(localStorage.getItem(chartKey)||'{}');for(const kind of ['rows','columns','cells'])for(const value of (Array.isArray(saved[kind])?saved[kind]:[])){if(kind==='cells'?/^(?:[1-9]|1[0-9]|2[0-5]):(?:[1-9]|1[0-9]|2[0-5])$/.test(value):Number.isInteger(value)&&value>=1&&value<=25)selections[kind].add(value)}}catch(e){}
+function chartButton(kind,value,label,text){return '<button type="button" data-chart-kind="'+kind+'" data-chart-value="'+value+'" aria-label="'+label+'" aria-pressed="false">'+text+'</button>'}
+let table='<table class="multiplication-table"><caption>Multiplication facts from 1 to 25</caption><thead><tr><th scope="col" class="multiplication-corner">×</th>';
+for(let c=1;c<=25;c++)table+='<th scope="col">'+chartButton('columns',c,'Highlight column '+c,c)+'</th>';
+table+='</tr></thead><tbody>';
+for(let r=1;r<=25;r++){table+='<tr><th scope="row">'+chartButton('rows',r,'Highlight row '+r,r)+'</th>';for(let c=1;c<=25;c++)table+='<td data-chart-row="'+r+'" data-chart-column="'+c+'">'+chartButton('cells',r+':'+c,r+' times '+c+' equals '+r*c,r*c)+'</td>';table+='</tr>'}
+chart.innerHTML=table+'</tbody></table>';
+function paintChart(message){
+ chart.querySelectorAll('[data-chart-kind]').forEach(b=>{const kind=b.dataset.chartKind;const value=kind==='cells'?b.dataset.chartValue:Number(b.dataset.chartValue);b.setAttribute('aria-pressed',String(selections[kind].has(value)))});
+ chart.querySelectorAll('td').forEach(td=>{td.classList.toggle('row-highlight',selections.rows.has(Number(td.dataset.chartRow)));td.classList.toggle('column-highlight',selections.columns.has(Number(td.dataset.chartColumn)))});
+ if(message)chartStatus.textContent=message;
+ try{localStorage.setItem(chartKey,JSON.stringify({rows:[...selections.rows],columns:[...selections.columns],cells:[...selections.cells]}))}catch(e){}
+}
+chart.addEventListener('click',e=>{const b=e.target.closest('[data-chart-kind]');if(!b||!chart.contains(b))return;const kind=b.dataset.chartKind,value=kind==='cells'?b.dataset.chartValue:Number(b.dataset.chartValue);const selected=!selections[kind].has(value);if(selected)selections[kind].add(value);else selections[kind].delete(value);paintChart(b.getAttribute('aria-label')+(selected?' — selected.':' — deselected.'))});
+document.querySelector('#clearMultiplication').addEventListener('click',()=>{Object.values(selections).forEach(s=>s.clear());paintChart('All highlights cleared.')});
+paintChart();
+
 })();
