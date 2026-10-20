@@ -281,5 +281,60 @@
     "art": "ixl-simplifying",
     "legacyId": "",
     "identitySource": "https://www.ixl.com/math/grade-5/write-fractions-in-lowest-terms"
+  },
+  {
+    "title": "Unit 3 Reader: Adventures of Don Quixote",
+    "link": "https://vpa.instructure.com/courses/589156/external_tools/17042",
+    "defaultDay": "2",
+    "kind": "Reading · Sora book setup",
+    "note": "Welcome to Unit 3! Find and borrow Adventures of Don Quixote in Sora. Once borrowed, the book is available for 90 days.",
+    "extra": "To-do: Tuesday, Oct 20. Quarter 2, Week 1, Unit 3.",
+    "art": "quixote-reader",
+    "fullWidth": true,
+    "linkLabel": "Sora Link",
+    "instructionSteps": [
+      "Click Sora in the left-hand course navigation menu, or use the Sora Link below.",
+      "Once logged in to Sora, search for Adventures of Don Quixote.",
+      "Click “Borrow” to add the book to your shelf. It will be available for 90 days."
+    ],
+    "instructionHeading": "First time using Sora?",
+    "additionalSteps": [
+      "From your course navigation choose Sora, or click the Sora Link below.",
+      "Click “Open in New Tab.” If the “Login with Google” page appears, click “Login with Google.” Otherwise continue to the next step.",
+      "Choose “Find your school,” OR choose “Not your school? Switch schools.”",
+      "Choose “No, I’ll search for my school.”",
+      "Type “Accel” in the search box. Find “AMP/Accel” in Independence, Ohio, USA, and click it.",
+      "Click AMP/ACCEL on the next screen, then click “Sign in using ACCEL Schools.” The next time you click Sora from the course navigation, you should already be logged in."
+    ],
+    "subject": "ELAR",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589156/external_tools/17042",
+    "id": "a-5109dd7bd8780574"
+  },
+  {
+    "title": "Core Connections: Review Prior Knowledge",
+    "link": "https://vpa.instructure.com/courses/589156/assignments/28024695",
+    "defaultDay": "2",
+    "kind": "Core Connections · 10 points",
+    "note": "Work on this Tuesday, Oct 20–Wednesday, Oct 21. Open the assignment for your teacher’s instructions.",
+    "extra": "Due Wednesday, Oct 21 at 11:59 PM. Available Oct 20 at 12:30 PM through Nov 4 at 11:59 PM. Locked until Oct 20 at 12:30 PM.",
+    "art": "quixote-connections",
+    "subject": "ELAR",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589156/assignments/28024695",
+    "id": "a-43e460cc38b811a6"
+  },
+  {
+    "title": "Reading Comprehension: Chapter 1: “A Knight in Armor”",
+    "link": "https://vpa.instructure.com/courses/589156/assignments/28027599",
+    "defaultDay": "5",
+    "kind": "Reading comprehension · 10 points",
+    "note": "Friday, Oct 23: Read Chapter 1, “A Knight in Armor,” and complete the reading comprehension assignment.",
+    "extra": "Due Friday, Oct 23 at 11:59 PM. Available Oct 22 at 12:30 PM through Nov 6 at 11:59 PM. Locked until Oct 22 at 12:30 PM.",
+    "art": "quixote-knight",
+    "subject": "ELAR",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589156/assignments/28027599",
+    "id": "a-5640f2dd06ee278c"
   }
 ]

@@ -1,0 +1,472 @@
+[
+  {
+    "term": "administration",
+    "part": "n.",
+    "definition": "government"
+  },
+  {
+    "term": "afield",
+    "part": "adv.",
+    "definition": "off the right course; far from the starting point"
+  },
+  {
+    "term": "agitate",
+    "part": "v.",
+    "definition": "to disturb, excite, or anger (agitated)"
+  },
+  {
+    "term": "agony",
+    "part": "n.",
+    "definition": "extreme pain"
+  },
+  {
+    "term": "Almighty",
+    "part": "n.",
+    "definition": "God"
+  },
+  {
+    "term": "ardent",
+    "part": "adj.",
+    "definition": "having or showing very strong feelings"
+  },
+  {
+    "term": "armor",
+    "part": "n.",
+    "definition": "a protective suit, usually made of heavy metal, worn by knights in the Middle Ages"
+  },
+  {
+    "term": "ballad",
+    "part": "n.",
+    "definition": "a poem or song that tells a story (ballads)"
+  },
+  {
+    "term": "basin",
+    "part": "n.",
+    "definition": "a shallow bowl"
+  },
+  {
+    "term": "belfry",
+    "part": "n.",
+    "definition": "a tower in which a bell sits (belfrys)"
+  },
+  {
+    "term": "bellows",
+    "part": "n.",
+    "definition": "a mechanical device that blows out air when its sides are pressed together"
+  },
+  {
+    "term": "bestow",
+    "part": "v.",
+    "definition": "to give"
+  },
+  {
+    "term": "bewilder",
+    "part": "v.",
+    "definition": "to confuse"
+  },
+  {
+    "term": "blow",
+    "part": "n.",
+    "definition": "a hard hit using a part of the body or an object"
+  },
+  {
+    "term": "bold",
+    "part": "adj.",
+    "definition": "fearless"
+  },
+  {
+    "term": "booty",
+    "part": "n.",
+    "definition": "valuable goods or money taken as a prize after victory"
+  },
+  {
+    "term": "bray",
+    "part": "v.",
+    "definition": "to make the harsh cry of a donkey (brayed)"
+  },
+  {
+    "term": "brocade",
+    "part": "n.",
+    "definition": "a type of fabric or cloth with raised designs in gold or silver thread"
+  },
+  {
+    "term": "captivity",
+    "part": "n.",
+    "definition": "being held as if a prisoner"
+  },
+  {
+    "term": "caravan",
+    "part": "n.",
+    "definition": "a group of people, animals, or vehicles traveling together"
+  },
+  {
+    "term": "clergyman",
+    "part": "n.",
+    "definition": "a church leader who performs religious services"
+  },
+  {
+    "term": "commend",
+    "part": "v.",
+    "definition": "to entrust or commit (commended)"
+  },
+  {
+    "term": "commotion",
+    "part": "n.",
+    "definition": "noise"
+  },
+  {
+    "term": "confess",
+    "part": "v.",
+    "definition": "to admit something is true"
+  },
+  {
+    "term": "confounded",
+    "part": "adj.",
+    "definition": "terrible or annoying"
+  },
+  {
+    "term": "deceive",
+    "part": "v.",
+    "definition": "to make someone believe something that is not true; trick or fool"
+  },
+  {
+    "term": "deficiency",
+    "part": "n.",
+    "definition": "a condition in which something important is lacking or missing"
+  },
+  {
+    "term": "delicacy",
+    "part": "n.",
+    "definition": "a delicious and rare food that is a special treat to eat (delicacies)"
+  },
+  {
+    "term": "dignity",
+    "part": "n.",
+    "definition": "calm behavior and self-control"
+  },
+  {
+    "term": "dromedary",
+    "part": "n.",
+    "definition": "a one-humped camel (dromedaries)"
+  },
+  {
+    "term": "dub",
+    "part": "v.",
+    "definition": "to give a name or title to someone; to make someone a knight (dubbed)"
+  },
+  {
+    "term": "duel",
+    "part": "n.",
+    "definition": "a fight between two people with weapons"
+  },
+  {
+    "term": "dumbfounded",
+    "part": "adj.",
+    "definition": "shocked or surprised"
+  },
+  {
+    "term": "enchanted",
+    "part": "adj.",
+    "definition": "magical or charmed"
+  },
+  {
+    "term": "envy",
+    "part": "v.",
+    "definition": "to be jealous of"
+  },
+  {
+    "term": "epitaph",
+    "part": "n.",
+    "definition": "something written or said about a person who died"
+  },
+  {
+    "term": "estate",
+    "part": "n.",
+    "definition": "property and belongings"
+  },
+  {
+    "term": "folks",
+    "part": "n.",
+    "definition": "people"
+  },
+  {
+    "term": "folly",
+    "part": "n.",
+    "definition": "craziness (follies)"
+  },
+  {
+    "term": "foolhardy",
+    "part": "adj.",
+    "definition": "foolishly dangerous or daring"
+  },
+  {
+    "term": "fortune",
+    "part": "n.",
+    "definition": "luck"
+  },
+  {
+    "term": "friar",
+    "part": "n.",
+    "definition": "a male member of a religious group who studies or teaches about Christianity; similar to a monk (friars)"
+  },
+  {
+    "term": "homage",
+    "part": "n.",
+    "definition": "special respect or honor"
+  },
+  {
+    "term": "homely",
+    "part": "adj.",
+    "definition": "unattractive"
+  },
+  {
+    "term": "honorable",
+    "part": "adj.",
+    "definition": "deserving respect"
+  },
+  {
+    "term": "ingenuity",
+    "part": "n.",
+    "definition": "skill or cleverness that allows someone to create something or solve a problem"
+  },
+  {
+    "term": "inn",
+    "part": "n.",
+    "definition": "a place where people who are traveling can eat, rest, or sleep"
+  },
+  {
+    "term": "instrumental",
+    "part": "adj.",
+    "definition": "very important"
+  },
+  {
+    "term": "intone",
+    "part": "v.",
+    "definition": "to speak in a way that sounds like music or chanting (intoned)"
+  },
+  {
+    "term": "joust",
+    "part": "v.",
+    "definition": "to participate in a competition to practice the fighting skills used by a knight (jousting)"
+  },
+  {
+    "term": "justice",
+    "part": "n.",
+    "definition": "fairness"
+  },
+  {
+    "term": "knight-errant",
+    "part": "n.",
+    "definition": "a knight who spent his time wandering and searching for adventure and romance"
+  },
+  {
+    "term": "lance",
+    "part": "n.",
+    "definition": "a long wooden pole with a metal tip"
+  },
+  {
+    "term": "last will and testament",
+    "part": "n.",
+    "definition": "a legal document in which a person states how his property should be distributed and to whom after his death"
+  },
+  {
+    "term": "laughingstock",
+    "part": "n.",
+    "definition": "a person regarded as very foolish and ridiculous"
+  },
+  {
+    "term": "lofty",
+    "part": "adj.",
+    "definition": "very high; deserving admiration"
+  },
+  {
+    "term": "meddle",
+    "part": "v.",
+    "definition": "to interfere in other people’s business in an unwanted way (meddled, meddling)"
+  },
+  {
+    "term": "menace",
+    "part": "v.",
+    "definition": "to threaten to harm (menacing)"
+  },
+  {
+    "term": "mercy",
+    "part": "n.",
+    "definition": "kind or forgiving treatment by someone in power"
+  },
+  {
+    "term": "monumental",
+    "part": "adj.",
+    "definition": "great or extreme"
+  },
+  {
+    "term": "Moors",
+    "part": "n.",
+    "definition": "Muslims who invaded and conquered parts of Spain in the Middle Ages"
+  },
+  {
+    "term": "mount",
+    "part": "n.",
+    "definition": "a horse or other animal intended to be ridden"
+  },
+  {
+    "term": "ordinary",
+    "part": "adj.",
+    "definition": "normal or usual"
+  },
+  {
+    "term": "page",
+    "part": "n.",
+    "definition": "a young boy in training to become a knight; the first step in the process of becoming a knight (pages)"
+  },
+  {
+    "term": "palfrey",
+    "part": "n.",
+    "definition": "a type of horse generally ridden by women in the Middle Ages (palfreys)"
+  },
+  {
+    "term": "partridge",
+    "part": "n.",
+    "definition": "a bird that is hunted and eaten for food (partridges)"
+  },
+  {
+    "term": "preposterous",
+    "part": "adj.",
+    "definition": "very foolish or silly"
+  },
+  {
+    "term": "provisions",
+    "part": "n.",
+    "definition": "a supply of food and other things that are needed"
+  },
+  {
+    "term": "psalm",
+    "part": "n.",
+    "definition": "a poem or song used in religious worship (psalms)"
+  },
+  {
+    "term": "reason",
+    "part": "v.",
+    "definition": "to think in a sensible and logical way"
+  },
+  {
+    "term": "rejoice",
+    "part": "v.",
+    "definition": "to celebrate"
+  },
+  {
+    "term": "reluctantly",
+    "part": "adv.",
+    "definition": "done with hesitation or unwillingness"
+  },
+  {
+    "term": "resign",
+    "part": "v.",
+    "definition": "to give up a job in an official way"
+  },
+  {
+    "term": "resolve",
+    "part": "v.",
+    "definition": "to clear up or deal with successfully (resolved)"
+  },
+  {
+    "term": "resonant",
+    "part": "adj.",
+    "definition": "producing a loud, clear, deep sound"
+  },
+  {
+    "term": "reunite",
+    "part": "v.",
+    "definition": "to come together again (reunited)"
+  },
+  {
+    "term": "scheme",
+    "part": "n.",
+    "definition": "a clever plan or plot to get or do something"
+  },
+  {
+    "term": "scorched",
+    "part": "adj.",
+    "definition": "burned"
+  },
+  {
+    "term": "scorn",
+    "part": "v.",
+    "definition": "to hate (scorns)"
+  },
+  {
+    "term": "scoundrel",
+    "part": "n.",
+    "definition": "a person with a bad reputation; a liar"
+  },
+  {
+    "term": "scribe",
+    "part": "n.",
+    "definition": "a person who copies or writes out documents"
+  },
+  {
+    "term": "sexton",
+    "part": "n.",
+    "definition": "a person who takes care of church buildings and surrounding property"
+  },
+  {
+    "term": "solemnly",
+    "part": "adv.",
+    "definition": "done in a very serious or formal way"
+  },
+  {
+    "term": "spoil",
+    "part": "n.",
+    "definition": "something valuable that is stolen or taken by soldiers or thieves (spoils)"
+  },
+  {
+    "term": "squire",
+    "part": "n.",
+    "definition": "a young man in the final stages of training to become a knight"
+  },
+  {
+    "term": "swineherd",
+    "part": "n.",
+    "definition": "someone who takes care of pigs"
+  },
+  {
+    "term": "turmoil",
+    "part": "n.",
+    "definition": "a state of extreme confusion or action"
+  },
+  {
+    "term": "unkempt",
+    "part": "adj.",
+    "definition": "messy"
+  },
+  {
+    "term": "unrequited",
+    "part": "adj.",
+    "definition": "unreturned; one-sided"
+  },
+  {
+    "term": "unyoke",
+    "part": "v.",
+    "definition": "to free from a harness or wagon (unyoked)"
+  },
+  {
+    "term": "vanquish",
+    "part": "v.",
+    "definition": "to beat or defeat in battle (vanquished)"
+  },
+  {
+    "term": "wisdom",
+    "part": "n.",
+    "definition": "knowledge gained from having many experiences in life"
+  },
+  {
+    "term": "woe",
+    "part": "n.",
+    "definition": "sadness (woes)"
+  },
+  {
+    "term": "worth",
+    "part": "n.",
+    "definition": "importance or value"
+  }
+]
