@@ -31,7 +31,7 @@ document.querySelector('#standardPanel').addEventListener('keydown',e=>{if(e.ctr
 const chart=document.querySelector('#multiplicationChart'),chartStatus=document.querySelector('#multiplicationStatus');
 const chartKey='adalyn-learning-quest-multiplication-v1';
 const selections={rows:new Set(),columns:new Set(),cells:new Set()};
-try{const saved=JSON.parse(localStorage.getItem(chartKey)||'{}');for(const kind of ['rows','columns','cells'])for(const value of (Array.isArray(saved[kind])?saved[kind]:[])){if(kind==='cells'?/^(?:[1-9]|1[0-9]|20):(?:[1-9]|1[0-9]|20)$/.test(value):Number.isInteger(value)&&value>=1&&value<=20)selections[kind].add(value)}}catch(e){}
+try{const saved=JSON.parse(localStorage.getItem(chartKey)||'{}');for(const kind of ['rows','columns']){const valid=(Array.isArray(saved[kind])?saved[kind]:[]).filter(value=>Number.isInteger(value)&&value>=1&&value<=20);if(valid.length)selections[kind].add(valid[valid.length-1])}}catch(e){}
 function chartButton(kind,value,label,text){return '<button type="button" data-chart-kind="'+kind+'" data-chart-value="'+value+'" aria-label="'+label+'" aria-pressed="false">'+text+'</button>'}
 let table='<table class="multiplication-table"><caption>Multiplication facts from 1 to 20</caption><thead><tr><th scope="col" class="multiplication-corner">×</th>';
 for(let c=1;c<=20;c++)table+='<th scope="col">'+chartButton('columns',c,'Highlight column '+c,c)+'</th>';
@@ -39,12 +39,25 @@ table+='</tr></thead><tbody>';
 for(let r=1;r<=20;r++){table+='<tr><th scope="row">'+chartButton('rows',r,'Highlight row '+r,r)+'</th>';for(let c=1;c<=20;c++)table+='<td data-chart-row="'+r+'" data-chart-column="'+c+'">'+chartButton('cells',r+':'+c,r+' times '+c+' equals '+r*c,r*c)+'</td>';table+='</tr>'}
 chart.innerHTML=table+'</tbody></table>';
 function paintChart(message){
- chart.querySelectorAll('[data-chart-kind]').forEach(b=>{const kind=b.dataset.chartKind;const value=kind==='cells'?b.dataset.chartValue:Number(b.dataset.chartValue);b.setAttribute('aria-pressed',String(selections[kind].has(value)))});
+ chart.querySelectorAll('[data-chart-kind]').forEach(b=>{const kind=b.dataset.chartKind;const value=kind==='cells'?b.dataset.chartValue:Number(b.dataset.chartValue);b.setAttribute('aria-pressed',String((kind==='cells'?selections.rows.has(Number(value.split(':')[0]))&&selections.columns.has(Number(value.split(':')[1])):selections[kind].has(value))))});
  chart.querySelectorAll('td').forEach(td=>{td.classList.toggle('row-highlight',selections.rows.has(Number(td.dataset.chartRow)));td.classList.toggle('column-highlight',selections.columns.has(Number(td.dataset.chartColumn)))});
  if(message)chartStatus.textContent=message;
  try{localStorage.setItem(chartKey,JSON.stringify({rows:[...selections.rows],columns:[...selections.columns],cells:[...selections.cells]}))}catch(e){}
 }
-chart.addEventListener('click',e=>{const b=e.target.closest('[data-chart-kind]');if(!b||!chart.contains(b))return;const kind=b.dataset.chartKind,value=kind==='cells'?b.dataset.chartValue:Number(b.dataset.chartValue);const selected=!selections[kind].has(value);if(selected)selections[kind].add(value);else selections[kind].delete(value);paintChart(b.getAttribute('aria-label')+(selected?' — selected.':' — deselected.'))});
+chart.addEventListener('click',e=>{
+ const b=e.target.closest('[data-chart-kind]');if(!b||!chart.contains(b))return;
+ const kind=b.dataset.chartKind,value=b.dataset.chartValue;let selected;
+ if(kind==='cells'){
+  const [r,c]=value.split(':').map(Number);
+  selected=!(selections.rows.has(r)&&selections.columns.has(c));
+  selections.rows.clear();selections.columns.clear();
+  if(selected){selections.rows.add(r);selections.columns.add(c)}
+ }else{
+  const n=Number(value);selected=!selections[kind].has(n);
+  selections[kind].clear();if(selected)selections[kind].add(n);
+ }
+ paintChart(b.getAttribute('aria-label')+(selected?' — selected.':' — deselected.'));
+});
 document.querySelector('#clearMultiplication').addEventListener('click',()=>{Object.values(selections).forEach(s=>s.clear());paintChart('All highlights cleared.')});
 paintChart();
 
