@@ -31,12 +31,12 @@ document.querySelector('#standardPanel').addEventListener('keydown',e=>{if(e.ctr
 const chart=document.querySelector('#multiplicationChart'),chartStatus=document.querySelector('#multiplicationStatus');
 const chartKey='adalyn-learning-quest-multiplication-v1';
 const selections={rows:new Set(),columns:new Set(),cells:new Set()};
-try{const saved=JSON.parse(localStorage.getItem(chartKey)||'{}');for(const kind of ['rows','columns','cells'])for(const value of (Array.isArray(saved[kind])?saved[kind]:[])){if(kind==='cells'?/^(?:[1-9]|1[0-9]|2[0-5]):(?:[1-9]|1[0-9]|2[0-5])$/.test(value):Number.isInteger(value)&&value>=1&&value<=25)selections[kind].add(value)}}catch(e){}
+try{const saved=JSON.parse(localStorage.getItem(chartKey)||'{}');for(const kind of ['rows','columns','cells'])for(const value of (Array.isArray(saved[kind])?saved[kind]:[])){if(kind==='cells'?/^(?:[1-9]|1[0-9]|20):(?:[1-9]|1[0-9]|20)$/.test(value):Number.isInteger(value)&&value>=1&&value<=20)selections[kind].add(value)}}catch(e){}
 function chartButton(kind,value,label,text){return '<button type="button" data-chart-kind="'+kind+'" data-chart-value="'+value+'" aria-label="'+label+'" aria-pressed="false">'+text+'</button>'}
-let table='<table class="multiplication-table"><caption>Multiplication facts from 1 to 25</caption><thead><tr><th scope="col" class="multiplication-corner">×</th>';
-for(let c=1;c<=25;c++)table+='<th scope="col">'+chartButton('columns',c,'Highlight column '+c,c)+'</th>';
+let table='<table class="multiplication-table"><caption>Multiplication facts from 1 to 20</caption><thead><tr><th scope="col" class="multiplication-corner">×</th>';
+for(let c=1;c<=20;c++)table+='<th scope="col">'+chartButton('columns',c,'Highlight column '+c,c)+'</th>';
 table+='</tr></thead><tbody>';
-for(let r=1;r<=25;r++){table+='<tr><th scope="row">'+chartButton('rows',r,'Highlight row '+r,r)+'</th>';for(let c=1;c<=25;c++)table+='<td data-chart-row="'+r+'" data-chart-column="'+c+'">'+chartButton('cells',r+':'+c,r+' times '+c+' equals '+r*c,r*c)+'</td>';table+='</tr>'}
+for(let r=1;r<=20;r++){table+='<tr><th scope="row">'+chartButton('rows',r,'Highlight row '+r,r)+'</th>';for(let c=1;c<=20;c++)table+='<td data-chart-row="'+r+'" data-chart-column="'+c+'">'+chartButton('cells',r+':'+c,r+' times '+c+' equals '+r*c,r*c)+'</td>';table+='</tr>'}
 chart.innerHTML=table+'</tbody></table>';
 function paintChart(message){
  chart.querySelectorAll('[data-chart-kind]').forEach(b=>{const kind=b.dataset.chartKind;const value=kind==='cells'?b.dataset.chartValue:Number(b.dataset.chartValue);b.setAttribute('aria-pressed',String(selections[kind].has(value)))});
