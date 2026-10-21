@@ -132,16 +132,23 @@
   {
     "id": "a-8fc20121fc8d4114",
     "subject": "Social Studies",
-    "title": "Review for test",
-    "link": null,
+    "title": "10/22 - Review for test KAHOOT",
+    "link": "https://vpa.instructure.com/courses/589352/assignments/30051251?module_item_id=81451685",
     "defaultDay": "4",
-    "kind": "Test review",
-    "note": "COME BACK LATER IN THE WEEK TO FIND MORE DETAILS!",
-    "extra": "Planned for Thursday, Oct 22. No due date. Points: None. No additional details or link were provided.",
-    "art": "test-review",
-    "noteBold": true,
+    "kind": "Kahoot test review · 0 points",
+    "note": "Review for your test with Kahoot. Use the additional review page for study information.",
+    "extra": "Planned for Thursday, Oct 22. No due date. Available after Oct 22 at 10:45 AM. Locked until Oct 22 at 10:45 AM.",
+    "art": "kahoot-test-review",
+    "noteBold": false,
     "legacyId": "",
-    "identitySource": "social-studies:test-review:2026-10-22"
+    "identitySource": "social-studies:test-review:2026-10-22",
+    "linkLabel": "Open Kahoot review assignment",
+    "additionalLinks": [
+      {
+        "label": "Additional review page · Study info",
+        "link": "https://vpa.instructure.com/courses/589352/pages/10-slash-21-review-page?module_item_id=81485097"
+      }
+    ]
   },
   {
     "id": "a-722cde873cc9c5d1",
