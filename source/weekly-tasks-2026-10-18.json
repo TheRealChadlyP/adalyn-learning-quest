@@ -191,19 +191,6 @@
     ]
   },
   {
-    "id": "a-f8f1390545b83791",
-    "subject": "Music",
-    "title": "🎥 Video Recordings of the Lessons (4-5)",
-    "link": "https://vpa.instructure.com/courses/589078/pages/video-recordings-of-the-lessons-4-5?module_item_id=81448677",
-    "defaultDay": "2",
-    "kind": "Video lesson",
-    "note": "Watch the video lesson. The weekly directions also point to the video through the participation quiz.",
-    "extra": "Locked until Tuesday, Oct 20 at 12:00 AM. No due date was provided.",
-    "art": "music-video",
-    "legacyId": "",
-    "identitySource": "https://vpa.instructure.com/courses/589078/pages/video-recordings-of-the-lessons-4-5"
-  },
-  {
     "id": "a-82b20554d6eaecef",
     "subject": "Music",
     "title": "Lesson Slides Week of October 19-23",
@@ -398,5 +385,77 @@
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589234/quizzes/6715889",
     "linkLabel": "Complete Running survey"
+  },
+  {
+    "id": "music-dad-catch-up-2026-10-24",
+    "subject": "Music",
+    "title": "Dad-Assigned: Music Lesson Catch-Up",
+    "link": null,
+    "defaultDay": "6",
+    "dueDate": "2026-10-24",
+    "kind": "Dad-assigned · Watch all 4 lessons",
+    "note": "Requires: Rhythm sticks (pencils will work!). Watch all four missed lessons, participate in the activities, and review each lesson’s Exit Key questions.",
+    "noteBold": true,
+    "extra": "Scheduled for Saturday, October 24. Due Saturday, October 24, 2026. Check off this assignment after completing all four lessons.",
+    "instructionSteps": [
+      "Gather your rhythm sticks or two pencils.",
+      "Watch each recording below and join in with the lesson activities.",
+      "Use each Exit Key (Goals To Complete Lesson) to review what you learned. The first lesson has no Exit Key.",
+      "After watching all four lessons, check off this Dad-assigned mission."
+    ],
+    "noLinkLabel": "Open the four recordings above",
+    "art": "music-catch-up",
+    "fullWidth": true,
+    "legacyId": "",
+    "identitySource": "dad:music-catch-up:2026-10-24",
+    "recordings": [
+      {
+        "week": "September 9–11",
+        "topics": [
+          "Rhythm (Alligator Pie)",
+          "Poison Game",
+          "Surprise Symphony"
+        ],
+        "exitKey": "No Exit Key This Lesson",
+        "link": "https://recordings.rna1.blindsidenetworks.com/pansophic-myamp/7e5746f1d1f6800dc134856314c040795065fb5d-1788965226511/capture/"
+      },
+      {
+        "week": "September 14–18",
+        "topics": [
+          "Steady Beat vs. Rhythm",
+          "Echo Patterns",
+          "Alligator Pie",
+          "Poison Game",
+          "Hot Cross Buns"
+        ],
+        "exitKey": "Which stays the same for the whole song (like a heartbeat) — Steady Beat or Rhythm? What was our new song that we learned today?",
+        "link": "https://recordings.rna1.blindsidenetworks.com/pansophic-myamp/3a83c30593d9351db6b8433acd04548e714c6bad-1789480978270/capture/"
+      },
+      {
+        "week": "September 28–October 2",
+        "topics": [
+          "Poison Game",
+          "Ostinato",
+          "Alligator Pie",
+          "Pitch",
+          "Hot Cross Buns - Body Ladder (High Middle Low)",
+          "Closet Key"
+        ],
+        "exitKey": "What is an Ostinato? What is Pitch?",
+        "link": "https://recordings.rna1.blindsidenetworks.com/pansophic-myamp/12db23933d5fb545afc0721c325c151b66c8dd68-1790690692027/capture/"
+      },
+      {
+        "week": "October 5–9",
+        "topics": [
+          "Announcements",
+          "Ostinato - Hot Cross Buns",
+          "Pitch - High, Middle, Low - Pitch Steps & Skips",
+          "Poison Game - Low, Middle, High - Closet Key",
+          "Rhythm - Jungle Messages"
+        ],
+        "exitKey": "Is High Pitch to Middle Pitch called a Skip or a Jump? Is High Pitch to Low Pitch called a Skip or a Jump?",
+        "link": "https://recordings.rna1.blindsidenetworks.com/pansophic-myamp/e30c68b739618a0b8b2382fe0aab5ed2ac3d9be9-1791295380716/capture/"
+      }
+    ]
   }
 ]
