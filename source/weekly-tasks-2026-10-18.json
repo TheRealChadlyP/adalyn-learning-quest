@@ -457,5 +457,33 @@
         "link": "https://recordings.rna1.blindsidenetworks.com/pansophic-myamp/e30c68b739618a0b8b2382fe0aab5ed2ac3d9be9-1791295380716/capture/"
       }
     ]
+  },
+  {
+    "id": "math-canvas-30062089",
+    "subject": "Math",
+    "title": "Wednesday - Equivalent Fractions",
+    "link": "https://vpa.instructure.com/courses/589846/assignments/30062089?module_item_id=81484825",
+    "defaultDay": "3",
+    "kind": "Equivalent fractions · 0 points",
+    "note": "Complete this equivalent fractions activity in Kami. Submission: external tool.",
+    "extra": "Due Wednesday, Oct 21 at 11:59 PM. Available Oct 21 at 12:00 AM through Nov 4 at 11:59 PM.",
+    "art": "equivalent-fractions-wednesday",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589846/assignments/30062089",
+    "linkLabel": "Open Kami assignment"
+  },
+  {
+    "id": "math-canvas-30062123",
+    "subject": "Math",
+    "title": "Wednesday Equivalent Fractions HW",
+    "link": "https://vpa.instructure.com/courses/589846/assignments/30062123?module_item_id=81484877",
+    "defaultDay": "3",
+    "kind": "Equivalent fractions · 0 points",
+    "note": "Complete this equivalent fractions homework in Kami. Submission: external tool.",
+    "extra": "Due Wednesday, Oct 21 at 11:59 PM. Available Oct 21 at 12:00 AM through Nov 4 at 11:59 PM.",
+    "art": "equivalent-fractions-wednesday",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589846/assignments/30062123",
+    "linkLabel": "Open Kami assignment"
   }
 ]
