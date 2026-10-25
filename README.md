@@ -17,3 +17,9 @@ Progress stays in the current browser, separate for each week, and does not sync
 ## Source
 
 source/ holds the weekly template and spreadsheet extraction script. New releases should include the website week selector and web-specific update instructions. Do not upload credentials or browser progress files to this repository.
+
+## Unfinished assignments from earlier weeks
+
+Every weekly page and the weekly template load assets/unfinished.js and assets/unfinished.css. The expandable backpack tile reads weeks.json and source/weekly-tasks-YYYY-MM-DD.json for earlier published weeks, then reads their existing local browser checkmarks. Always publish the matching source JSON when adding a week. This list does not copy, reschedule, or count earlier assignments in the current week's progress. It links to the original card with ?mission=ASSIGNMENT_ID.
+
+Earlier means before the later of the displayed week and the browser's current Sunday-start week. Thus the newest published page can list its own unfinished assignments when the calendar has moved on and the next page has not been published yet. The list updates on returning to the page and after checklist changes. No progress is uploaded; the list only knows this browser's checkmarks. Failed week loads are identified rather than reported as all complete.
