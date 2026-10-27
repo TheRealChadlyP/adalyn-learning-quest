@@ -27,7 +27,10 @@
     "art": "energy-organisms-reading",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589246/assignments/25833377",
-    "linkLabel": "Open reading"
+    "linkLabel": "Open reading",
+    "prerequisiteIds": [
+      "science-canvas-25831815"
+    ]
   },
   {
     "id": "science-canvas-5781213",
@@ -42,7 +45,11 @@
     "art": "energy-organisms-quiz",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589246/quizzes/5781213",
-    "linkLabel": "Open reading quiz"
+    "linkLabel": "Open reading quiz",
+    "prerequisiteIds": [
+      "science-canvas-25831815",
+      "science-canvas-25833377"
+    ]
   },
   {
     "id": "science-canvas-25833071",
@@ -57,7 +64,12 @@
     "art": "energy-relationships-research",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589246/assignments/25833071",
-    "linkLabel": "Open assignment"
+    "linkLabel": "Open assignment",
+    "prerequisiteIds": [
+      "science-canvas-25831815",
+      "science-canvas-25833377",
+      "science-canvas-5781213"
+    ]
   },
   {
     "id": "science-canvas-29978481",
@@ -72,7 +84,13 @@
     "art": "energy-flow-project",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589246/assignments/29978481",
-    "linkLabel": "Open assignment"
+    "linkLabel": "Open assignment",
+    "prerequisiteIds": [
+      "science-canvas-25831815",
+      "science-canvas-25833377",
+      "science-canvas-5781213",
+      "science-canvas-25833071"
+    ]
   },
   {
     "id": "math-ixl-monday-async-2026-10-26",
