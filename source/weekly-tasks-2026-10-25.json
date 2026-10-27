@@ -73,5 +73,26 @@
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589246/assignments/29978481",
     "linkLabel": "Open assignment"
+  },
+  {
+    "id": "math-ixl-monday-async-2026-10-26",
+    "subject": "Math",
+    "title": "IXL: Monday Async Assignment",
+    "defaultDay": "1",
+    "dueDate": "2026-10-26",
+    "kind": "IXL practice · 0 points",
+    "note": "Complete both IXL sections, then check off this assignment.",
+    "extra": "Due Monday, Oct 26 at 11:59 PM. Points: 0. Submitting: an external tool. Available Oct 26 at 12:00 AM through Nov 9 at 11:59 PM.",
+    "art": "equivalent-fractions-ixl",
+    "legacyId": "",
+    "identitySource": "math:ixl-monday-async:2026-10-26",
+    "link": "https://www.ixl.com/math/grade-4/identify-equivalent-fractions?lmsPlatform=1",
+    "linkLabel": "1. Identify Equivalent Fractions",
+    "additionalLinks": [
+      {
+        "label": "2. Equivalent fractions: find the missing numerator or denominator",
+        "link": "https://www.ixl.com/math/grade-4/equivalent-fractions-find-the-missing-numerator-or-denominator?lmsPlatform=1"
+      }
+    ]
   }
 ]
