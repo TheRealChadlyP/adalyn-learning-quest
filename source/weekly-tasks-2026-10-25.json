@@ -183,5 +183,52 @@
     "art": "music-lesson",
     "identitySource": "ss-states-capitals-song-2026-10-29",
     "lyrics": "Baton Rouge, Louisiana\nIndianapolis, Indiana\nColumbus is the capital of Ohio\nThere’s Montgomery, Alabama,\nSouth of Helena, Montana\nThen there’s Denver, Colorado\nUnder Boise, Idaho\nTexas has Austin, then we go north to\nMassachusetts, Boston, and\nAlbany, New York\nTallahassee, Florida, and\nWashington, DC\nSanta Fe, New Mexico, and\nNashville, Tennessee\nTrenton’s in New Jersey, north of\nJefferson City, Missouri — you’ve got\nRichmond in Virginia\nSouth Dakota has Pierre\nHarrisburg’s in Pennsylvania\nAnd Augusta up in Maine\nHere is Providence, Rhode Island, next to\nDover, Delaware\nConcord, New Hampshire, just took a jaunt to\nMontpelier, which is up in Vermont\nHartford’s in Connecticut, so pretty in the fall\nAnd Kansas has Topeka, and\nMinnesota has Saint Paul\nJuneau in Alaska, and there’s\nLincoln in Nebraska, and it’s\nRaleigh out in North Carolina, and then there’s\nMadison, Wisconsin, and\nOlympia in Washington\nPhoenix, Arizona, and\nLansing, Michigan\nHonolulu, Hawaii’s a joy\nJackson, Mississippi, and\nSpringfield, Illinois\nSouth Carolina with Columbia down the way, and\nAnnapolis in Maryland on Chesapeake Bay — they have wonderful clam chowder\nCheyenne is in Wyoming, and perhaps you make your home in\nSalt Lake City out in Utah, where the buffalo roam\nAtlanta’s down in Georgia, and there’s\nBismarck, North Dakota, and you can live in\nFrankfort in your old Kentucky home"
+  },
+  {
+    "id": "music-canvas-30076863",
+    "subject": "Music",
+    "title": "Monday, October 26th Music Async Assignment: Instrument Families",
+    "defaultDay": "1",
+    "dueDate": "2026-10-26",
+    "kind": "Music activity · 10 points",
+    "fullWidth": true,
+    "note": "Watch the video, play the game, then submit your score in Canvas.",
+    "noteBold": true,
+    "instructionSteps": [
+      "Watch the Instrument Family Video using the link below.",
+      "Play Blooket: Instrument Families. For your nickname, use your first and last name OR your first name and last initial so Mrs. Beard can identify your work.",
+      "Open the main Canvas assignment and click Submit Assignment at the top. Enter how many questions you got correct out of how many you completed. There are 20 questions total. For example, if you answered all 20 and got 15 correct, submit “15/20” or “15 right out of 20.”"
+    ],
+    "extra": "Due Monday, Oct 26 at 11:59 PM. Points: 10. Submitting: a text entry box. Available Oct 26 at 12:00 AM through Nov 9 at 11:59 PM.",
+    "link": "https://vpa.instructure.com/courses/589078/assignments/30076863?module_item_id=81535187",
+    "linkLabel": "Submit your score in Canvas",
+    "additionalLinks": [
+      {
+        "label": "1. Watch: Instrument Family Video",
+        "link": "https://www.youtube.com/watch?v=43c_Sg2x7DU"
+      },
+      {
+        "label": "2. Play Blooket: Instrument Families",
+        "link": "https://play.blooket.com/play?hwId=6adb4865519bbd15f14244eb"
+      }
+    ],
+    "art": "music-lesson",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589078/assignments/30076863"
+  },
+  {
+    "id": "music-canvas-6720163",
+    "subject": "Music",
+    "title": "Quiz: Week of October 26–30",
+    "defaultDay": "2",
+    "dueDate": "2026-10-27",
+    "kind": "Music quiz · 10 points",
+    "note": "Complete this week’s two-question Music quiz.",
+    "extra": "Due Oct 27 at 11:59 PM. Points: 10. Questions: 2. Available Oct 27 at 12:00 AM through Nov 10 at 11:59 PM. Locked until Oct 27 at 12:00 AM. No time limit. Allowed attempts: 2.",
+    "link": "https://vpa.instructure.com/courses/589078/quizzes/6720163?module_item_id=81535197",
+    "linkLabel": "Open Music quiz",
+    "art": "music-quiz",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589078/quizzes/6720163"
   }
 ]
