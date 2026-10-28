@@ -390,5 +390,38 @@
     "art": "map-vocab",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589352/assignments/25836231"
+  },
+  {
+    "id": "art-canvas-30089177",
+    "subject": "Art",
+    "title": "🎨 Funny Imaginary Creature Art Project 🖼️📸",
+    "defaultDay": "4",
+    "dueDate": "2026-11-06",
+    "kind": "Art project · 100 points",
+    "fullWidth": true,
+    "note": "Grades 3–5: Build and paint a funny imaginary creature that could never exist in real life! Then upload a photo of your finished sculpture.",
+    "extra": "Planned for Thursday, Oct 29. Teacher’s due date: Nov 6 at 11:59 PM. Points: 100. Submitting: a file upload. Available Oct 26 at 12:00 AM through Nov 13 at 11:59 PM.",
+    "instructionSteps": [
+      "Gather safe materials you have at home: clay or air-dry clay; cardboard or paper rolls; clean recycled boxes or containers; paper, tape, or glue; paint and a brush, or markers and colored paper. Optional decorations: yarn or foil.",
+      "Imagine a creature that does not exist. Plan its shape and funny features.",
+      "Choose materials and build your creature as a sculpture.",
+      "Add details such as horns, wings, extra eyes, or a silly tail.",
+      "Let glue or air-dry clay dry as needed.",
+      "Paint your sculpture and let the paint dry.",
+      "Give your creature a name."
+    ],
+    "instructionHeading": "Take a photo, submit, and check your work",
+    "additionalSteps": [
+      "Place your sculpture in a bright spot with a plain background if possible.",
+      "Take a clear photo showing the whole sculpture.",
+      "Upload the photo to the art assignment and submit it. If you need to label your work, use your first name only.",
+      "Before checking off this assignment: I built an imaginary creature sculpture; I added details and painted it; I took a clear photo of the whole sculpture; I uploaded and submitted my photo.",
+      "Parent/Caregiver Helper Note: Help find safe, available materials and use tools appropriately. An adult may help take or upload the photo, but let the student make the artwork and creative choices. Check that the photo clearly shows the artwork and does not include personal information."
+    ],
+    "link": "https://vpa.instructure.com/courses/589076/assignments/30089177?module_item_id=81571805",
+    "linkLabel": "Upload & submit artwork photo",
+    "art": "imaginary-creature",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589076/assignments/30089177"
   }
 ]
