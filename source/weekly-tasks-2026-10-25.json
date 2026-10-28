@@ -361,5 +361,34 @@
     "subject": "ELAR",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589156/assignments/28024915"
+  },
+  {
+    "id": "ss-maps-presentation-2026-10-27",
+    "subject": "Social Studies",
+    "title": "10/27 - Maps",
+    "defaultDay": "2",
+    "kind": "Maps presentation",
+    "note": "Explore the presentation: Maps: Understanding the world around us.",
+    "extra": "",
+    "link": "https://docs.google.com/presentation/d/1ZbfCiGoo-xYGHy8ppql6YNRkAsZgVnA25SkndAwT2rQ/edit?slide=id.p9#slide=id.p9",
+    "linkLabel": "Open Maps presentation",
+    "art": "world-map",
+    "legacyId": "",
+    "identitySource": "https://docs.google.com/presentation/d/1ZbfCiGoo-xYGHy8ppql6YNRkAsZgVnA25SkndAwT2rQ"
+  },
+  {
+    "id": "ss-canvas-25836231",
+    "subject": "Social Studies",
+    "title": "10/30 - Activity Page 1.2: Start the Match!",
+    "defaultDay": "5",
+    "dueDate": "2026-10-30",
+    "kind": "Activity page · 10 points",
+    "note": "Complete Activity Page 1.2: Start the Match!",
+    "extra": "Due Oct 30 at 11:59 PM. Points: 10. Available Oct 30 at 12:00 AM through Nov 13 at 11:59 PM. Locked until Oct 30 at 12:00 AM.",
+    "link": "https://vpa.instructure.com/courses/589352/assignments/25836231?module_item_id=67759501",
+    "linkLabel": "Open assignment",
+    "art": "map-vocab",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589352/assignments/25836231"
   }
 ]
