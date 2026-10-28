@@ -248,5 +248,35 @@
     "art": "music-quiz",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589078/quizzes/6720163"
+  },
+  {
+    "id": "math-canvas-30089159",
+    "subject": "Math",
+    "title": "IXL: Homework: Tuesday",
+    "defaultDay": "2",
+    "dueDate": "2026-10-27",
+    "kind": "IXL practice · 0 points",
+    "note": "Complete Tuesday’s homework in IXL.",
+    "extra": "Due Oct 27 at 11:59 PM. Points: 0. Submitting: an external tool (IXL). Available Oct 27 at 12:00 AM through Nov 10 at 11:59 PM.",
+    "link": "https://vpa.instructure.com/courses/589846/assignments/30089159?module_item_id=81571625",
+    "linkLabel": "Open IXL assignment",
+    "art": "equivalent-fractions-ixl",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589846/assignments/30089159"
+  },
+  {
+    "id": "math-canvas-30089189",
+    "subject": "Math",
+    "title": "Tuesday: Check for Understanding",
+    "defaultDay": "2",
+    "dueDate": "2026-10-27",
+    "kind": "Kami practice · 0 points",
+    "note": "Complete Tuesday’s Check for Understanding in Kami.",
+    "extra": "Due Oct 27 at 11:59 PM. Points: 0. Submitting: an external tool (Kami). Available Oct 27 at 12:00 AM through Nov 10 at 11:59 PM.",
+    "link": "https://vpa.instructure.com/courses/589846/assignments/30089189?module_item_id=81571821",
+    "linkLabel": "Open Kami assignment",
+    "art": "equivalent-fractions-worksheet",
+    "legacyId": "",
+    "identitySource": "https://vpa.instructure.com/courses/589846/assignments/30089189"
   }
 ]
