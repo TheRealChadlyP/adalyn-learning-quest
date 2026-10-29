@@ -54,13 +54,13 @@
   {
     "id": "science-canvas-25833071",
     "subject": "Science",
-    "title": "Research: Energy Relationships Among Plants and Animals",
+    "title": "🔬 Thursday — Research: Energy Relationships Among Plants and Animals",
     "link": "https://vpa.instructure.com/courses/589246/assignments/25833071?module_item_id=67749539",
     "defaultDay": "4",
     "dueDate": "2026-10-29",
     "kind": "Research · 10 points",
-    "note": "Research energy relationships among plants and animals. Open the assignment for your teacher’s instructions.",
-    "extra": "Due Thursday, Oct 29 at 11:59 PM. Available Oct 29 at 8:20 AM through Nov 12 at 11:59 PM. Locked until Oct 29 at 8:20 AM.",
+    "note": "Your Mission: Become a science researcher! Over the next two days, independently research one organism and learn how it gets and uses energy in its environment. Use your research to create a short presentation about your organism and its role in an ecosystem. You will work independently.",
+    "extra": "Due Thursday, Oct 29 at 11:59 PM. Points: 10. Submitting: a text entry box or a file upload. Available Oct 29 at 8:20 AM through Nov 12 at 11:59 PM.",
     "art": "energy-relationships-research",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589246/assignments/25833071",
@@ -69,7 +69,30 @@
       "science-canvas-25831815",
       "science-canvas-25833377",
       "science-canvas-5781213"
-    ]
+    ],
+    "fullWidth": true,
+    "noteBold": true,
+    "instructionHeading": "Your Research Should Answer",
+    "additionalSteps": [
+      "What organism are you researching?",
+      "What kind of environment does your organism live in?",
+      "What does your organism eat, or how does it get food?",
+      "Where does your organism get its energy?",
+      "What other organisms eat your organism?",
+      "Is your organism a producer, consumer, or scavenger? Explain your answer.",
+      "If your organism is a consumer, is it a herbivore, carnivore, or omnivore? Explain.",
+      "How does energy from the Sun eventually reach your organism?",
+      "What is one interesting fact you learned about your organism?"
+    ],
+    "announcement": {
+      "author": "Important! Your own words, tomorrow’s project, and Canvas completion",
+      "posted": "",
+      "paragraphs": [
+        "Do not just copy and paste information from a website. Read the information, understand it, and explain it in your own words.",
+        "This assignment is the research for tomorrow’s “Energy Flow Research Project” (Friday, Oct 30). Save your research—you will use it to create your final project showing how energy moves through an ecosystem.",
+        "When finished, submit your research and mark this assignment done in Canvas to unlock the next assignment. Then check off this card in Learning Quest to unlock Friday’s card here. Checking off this card does not mark it done in Canvas."
+      ]
+    }
   },
   {
     "id": "science-canvas-29978481",
