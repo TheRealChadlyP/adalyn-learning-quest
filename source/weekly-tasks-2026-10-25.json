@@ -97,23 +97,57 @@
   {
     "id": "science-canvas-29978481",
     "subject": "Science",
-    "title": "Energy Flow Research Project",
+    "title": "Friday — Energy Flow Research Project",
     "link": "https://vpa.instructure.com/courses/589246/assignments/29978481?module_item_id=81225073",
     "defaultDay": "5",
     "dueDate": "2026-10-30",
     "kind": "Research project · 20 points",
-    "note": "Create your energy flow research project using your teacher’s instructions.",
-    "extra": "Due Friday, Oct 30 at 11:59 PM. Available Oct 30 at 8:20 AM through Nov 13 at 11:59 PM. Locked until Oct 30 at 8:20 AM.",
+    "note": "Use the research you completed yesterday to create an independent ecosystem project. Show how energy moves from the Sun → producers → consumers within an environment.",
+    "extra": "Due Friday, Oct 30 at 11:59 PM. Points: 20. Submitting: a text entry box or a file upload. Available Oct 29 at 8:20 AM through Nov 13 at 11:59 PM.",
     "art": "energy-flow-project",
     "legacyId": "",
     "identitySource": "https://vpa.instructure.com/courses/589246/assignments/29978481",
-    "linkLabel": "Open assignment",
+    "linkLabel": "Submit completed project in Canvas",
     "prerequisiteIds": [
       "science-canvas-25831815",
       "science-canvas-25833377",
       "science-canvas-5781213",
       "science-canvas-25833071"
-    ]
+    ],
+    "fullWidth": true,
+    "noteBold": true,
+    "instructionSteps": [
+      "Create a short presentation using Canva, Google Slides, PowerPoint, or another teacher-approved format. Include 4–5 slides/pages.",
+      "Slide 1 — Meet My Organism: Include your organism’s name, a picture, and a few facts about it.",
+      "Slide 2 — My Environment: Describe where your organism lives and what that environment is like. Name at least one other organism that lives in the same environment.",
+      "Slide 3 — Where Does the Energy Come From? Explain how energy from the Sun eventually reaches your organism. Create an energy chain: Sun → __________ → __________ → My Organism. Show the organisms that pass energy along to your organism.",
+      "Slide 4 — My Role in the Ecosystem: Is your organism a producer, herbivore, carnivore, omnivore, or scavenger? Explain what it eats or how it gets energy, and what organism might eat it.",
+      "Slide 5 — One More Thing! Include one interesting fact about your organism. Name one possible omnivore that could live in the same environment and explain what that omnivore might eat."
+    ],
+    "instructionHeading": "✅ Final Checklist — Before you submit",
+    "additionalSteps": [
+      "I included my organism and a picture.",
+      "I identified its environment.",
+      "I explained what my organism eats or how it gets energy.",
+      "I showed how energy from the Sun reaches my organism.",
+      "I created an energy chain.",
+      "I identified my organism’s role in the ecosystem.",
+      "I identified something that might eat my organism.",
+      "I included a possible omnivore.",
+      "I included an interesting fact.",
+      "I used science vocabulary correctly.",
+      "I checked my work before submitting."
+    ],
+    "announcement": {
+      "author": "⭐ Science Vocabulary & Reminders",
+      "posted": "",
+      "paragraphs": [
+        "Try to use these words correctly: sunlight • energy • producer • consumer • herbivore • carnivore • omnivore • scavenger • environment.",
+        "Energy in an ecosystem begins with the Sun. Producers use energy from sunlight to make food. Consumers get energy by eating plants or other animals.",
+        "Sun → Producer → Consumer → Consumer. Your job is to show how that energy moves through your ecosystem.",
+        "Submit your completed project in Canvas when you are finished."
+      ]
+    }
   },
   {
     "id": "math-ixl-monday-async-2026-10-26",
